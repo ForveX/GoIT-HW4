@@ -1,0 +1,160 @@
+body{
+	background: url('../img/bg.png');
+	background-repeat: repeat;
+}
+
+.clearfix:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.clearfixright:after{
+	content: '';
+	clear: right;
+	display: block;
+}
+
+.wrapper{
+	width: 1001px;
+	margin: 0 auto;
+	margin-top: -17px;
+	background-color: white;
+}
+
+.logo{
+	margin-top: 47px;
+	margin-left: 37px;
+	position: relative;
+  float: left;
+	display: block;
+}
+
+.logo-txt{
+	color: #128aa7;
+	font-family: "Tahoma", sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	position: absolute;
+	left: 70px;
+	top: 85px;
+	z-index: 1;
+}
+
+.rpos{
+	margin-top: 20px;
+}
+
+.contacts{
+	float:right;
+	margin-top: 42px;
+	margin-right: 50px;
+}
+
+.contacts th{
+	line-height: 14px;
+	width: 124px;
+	opacity: 0.8;
+	color: #128aa7;
+	font-family: "Tahoma", sans-serif;
+	font-size: 12px;
+}
+
+.contacts td{
+	line-height: 14px;
+	opacity: 0.8;
+	color: #128aa7;
+	font-family: "Tahoma", sans-serif;
+	font-size: 12px;
+	width: 124px;
+}
+
+.contacts td a{
+	margin-right: -20px;
+	opacity: 0.8;
+	color: #128aa7;
+	font-family: "Tahoma", sans-serif;
+	font-size: 12px;
+}
+
+.countries{
+	margin-top: 30px;
+	margin-right: 60px;
+}
+
+.countries li{
+	float: right;
+	list-style: none;
+	width: 30px;
+	height: 25px;
+	padding-left: 25px;
+	text-align: center;
+}
+
+.countries a{
+	font-family: "Tahoma", sans-serif;
+	font-size: 10px;
+}
+
+.main-img {
+	display: block;
+	float:left;
+	height: 250px;
+	width: 1001px;
+	margin-top: -7px;
+}
+
+.nav-bar{
+	background: url("../img/panel.png");
+	width: 1004px;
+}
+
+.nav-bar ul{
+	list-style: none;
+}
+
+.nav-bar li{
+	float: left;
+	display: inline;
+	line-height: 18px;
+	margin-right: 30px;
+}
+
+.nav-bar a{
+	text-decoration: none;
+	color: white;
+}
+
+.info-block{
+	background: url("../img/grey-bground.png");
+	float: left;
+	font-family: "Tahoma", sans-serif;
+	font-size: 14px;
+	padding-left: 20px;
+	width: 209px;
+	height: 430px;
+	line-height: 12px;
+}
+
+.news-block{
+	background: url("../img/grey-bground.png");
+	float:right;
+	font-family: "Tahoma", sans-serif;
+	font-size: 14px;
+	width: 209px;
+	height: 430px;
+	padding-left: 20px;
+	line-height: 12px;
+}
+
+.footer{
+	margin: 0 auto;
+	background-color: transparent;
+	width: 250px;
+	height: 12px;
+	opacity: 0.8;
+	color: white;
+	font-family: "Tahoma", sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+}
