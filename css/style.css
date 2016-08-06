@@ -122,21 +122,22 @@ ul.menu > li {
 
 ul.menu > li > a {
 	display: block;
+	height: 34px;
 	padding: 10px;
+	color: white;
 	text-decoration: none;
 }
 
 ul.menu > li > a:hover {
-	background-color: black;
 	height: 34px;
 }
 
 ul.ddl {
 	display: none;
+	background: url('../img/dropdown-layer.png');
 	position: absolute;
 	width: 120px;
-
-	top: 37px;
+	top: 34px;
 	left: 0;
 	border: 1px solid;
 }
@@ -150,6 +151,7 @@ ul.ddl > li > a {
 	padding: 10px;
 	color: white;
 	text-decoration: none;
+	color: white;
 }
 
 ul.ddl > li > a:hover {
@@ -165,6 +167,7 @@ ul.menu > li:hover > ul.ddl {
 	width:100%;
 	background:lightgray;
 	overflow:hidden;
+	margin-top: -20px;
 	position:relative;
 }
 
@@ -186,18 +189,26 @@ ul.menu > li:hover > ul.ddl {
 
 .info-block {
 	float:left;
-	width:26%;
+	width: 26%;
 	position:relative;
-	left:72%;
+	left: 72%;
 	overflow:hidden;
 }
 
 .info-block p{
-	padding-left: 20px;
+	padding-left: 50px;
 	line-height: 24px;
 	font-size: 14px;
 	font-family: 'Tahoma' sans-serif;
 	color: #424c43;
+}
+
+.info-block p:first-child{
+	margin-top: 20px;
+}
+
+.info-block p:last-child {
+	margin-bottom: 20px;
 }
 
 .center-col {
@@ -218,11 +229,19 @@ ul.menu > li:hover > ul.ddl {
 }
 
 .news-block p{
-	padding-left: 20px;
+	padding-left: 50px;
 	line-height: 24px;
 	font-size: 14px;
 	font-family: 'Tahoma' sans-serif;
 	color: #424c43;
+}
+
+.news-block p:first-child {
+	margin-top: 20px;
+}
+
+.news-block p:last-child {
+	margin-bottom: 20px;
 }
 
 .footer {
