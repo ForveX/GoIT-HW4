@@ -69,21 +69,23 @@ body{
 
 .countries{
 	position: absolute;
-	top: 140px;
-	right: 40px;
+	top: 164px;
+	right: 36px;
 	height: 20px;
-	width: 800px;
+	width: 400px;
 }
 
 .countries li{
 	float: right;
 	width: 40px;
-	padding-left: 20px;
+	margin-left: 16px;
 	list-style: none;
+	text-align: center;
 }
 
 .countries li a{
 	color: #128aa7;
+	margin-top: -2px;
 	text-align: center;
 	font-family: 'Tahoma', sans-serif;
 	font-size: 10px;
@@ -143,9 +145,11 @@ ul.ddl {
 	position: absolute;
 	z-index: 1;
 	width: 150px;
-	top: 37px;
+	top: 34px;
 	left: 0;
 	background-color: #303030;
+	margin: 0;
+	padding: 0;
 	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.75);
 }
 ul.ddl > li {
@@ -179,6 +183,7 @@ ul.menu > li:hover > ul.ddl {
 	background:white;
 	position:relative;
 	right:21%;
+	border: 1px solid darkgrey;
 }
 
 .container1 {
@@ -187,6 +192,7 @@ ul.menu > li:hover > ul.ddl {
 	background:lightgray;
 	position:relative;
 	right: 58%;
+	border: 1px solid darkgrey;
 }
 
 .info-block {
