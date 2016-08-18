@@ -3,7 +3,7 @@
 	src: url('../fonts/Tahoma.ttf');
 }
 
-body{
+body {
 	background: url('../img/bg.png');
 }
 
@@ -15,7 +15,7 @@ body{
 	clear		: both;
 }
 
-.wrapper{
+.wrapper {
 	position: relative;
 	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
 	width: 1000px;
@@ -24,13 +24,13 @@ body{
 	background-color: white;
 }
 
-.h-container{
+.h-container {
 	position: relative;
 	width: 1000px;
 	height: 467px;
 }
 
-.logo{
+.logo {
 	position: absolute;
 	top: 65px;
 	left: 30px;
@@ -38,7 +38,7 @@ body{
 	display: block;
 }
 
-.logo-txt{
+.logo-txt {
 	position: absolute;
 	z-index: 1;
 	top: 96px;
@@ -54,12 +54,12 @@ body{
 
 .rpos {
 	position: absolute;
-	right: 20px;
-	top: 65px;
+	right: 30px;
+	top: 57px;
 	display: block;
 }
 
-.contacts{
+.contacts {
 	color: #128aa7;
 	font-family: 'Tahoma', sans-serif;
 	font-size: 12px;
@@ -67,24 +67,43 @@ body{
 	line-height: 14px;
 }
 
-.contacts td{
-	height: 16px;
+.contacts td {
+	margin: 0;
+	padding: 0;
+	width: 125px;
+	height: 10px;
+	opacity: 0.8;
+	color: #128aa7;
+	font-family: 'Thahoma', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 20px;
 }
 
-.countries{
+.contacts td>a {
+	text-decoration: none;
+	color: #128aa7;
+	font-family: 'Thahoma', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.countries {
 	position: absolute;
 	top: 164px;
 	right: 36px;
 	height: 20px;
 	width: 400px;
+	line-height: 7px;
+	text-align: center;
 }
 
-.contacts ul{
+.countries ul {
 	margin: 0;
 	padding: 0;
 }
 
-.countries li{
+.countries li {
 	float: right;
 	width: 40px;
 	margin-left: 16px;
@@ -92,15 +111,14 @@ body{
 	text-align: center;
 }
 
-.countries li a{
+.countries li a {
 	color: #128aa7;
-	text-align: center;
 	font-family: 'Tahoma', sans-serif;
 	font-size: 10px;
 	font-weight: 400;
 }
 
-.main-img{
+.main-img {
 	position: absolute;
 	bottom: 0;
 	margin-top: 20px;
@@ -116,30 +134,38 @@ body{
 	margin-bottom: 20px;
 }
 
-span{
+span {
 	font-size: 10px;
 }
 
 .nav-bar ul {
 	display: block;
-	margin-left: 30px;
+	margin-left: 0;
 	padding: 0;
 	list-style: none;
+	margin-top: -2px;
 }
 
 .nav-bar ul.menu > li {
-	width: 130px;
+	width: 138px;
+	text-align: center;
+	margin-right: 0;
 	float: left;
-	margin-right: 5px;
 	height: 34px;
 	position: relative;
 }
+
+.nav-bar ul.menu > li:first-child {
+	margin-left: 20px;
+}
+
 ul.menu > li > a {
+	font-weight: 400;
 	display: block;
 	color: white;
 	font-family: 'Tahoma', sans-serif;
-	font-size: 13px;
-	line-height: 25px;
+	font-size: 15px;
+	line-height: 34px;
 	background-color: #363636;
 	text-align: center;
 	text-decoration: none;
@@ -163,6 +189,9 @@ ul.ddl > li > a {
 	display: block;
 	padding: 10px;
 	color: white;
+	font-family: 'Tahoma', sans-serif;
+	font-size: 15px;
+	line-height: 34px;
 	text-decoration: none;
 }
 ul.ddl > li > a:hover {
@@ -207,7 +236,7 @@ ul.menu > li:hover > ul.ddl {
 	overflow: hidden;
 }
 
-.info-block h1{
+.info-block h1 {
 	padding-left: 75px;
 	line-height: 30px;
 	font-size: 16px;
@@ -216,7 +245,7 @@ ul.menu > li:hover > ul.ddl {
 	color: #424c43;
 }
 
-.info-block p{
+.info-block p {
 	padding-left: 50px;
 	line-height: 24px;
 	font-size: 14px;
@@ -224,7 +253,7 @@ ul.menu > li:hover > ul.ddl {
 	color: #424c43;
 }
 
-.info-block p:first-child{
+.info-block p:first-child {
 	margin-top: 20px;
 }
 
@@ -249,7 +278,7 @@ ul.menu > li:hover > ul.ddl {
 	overflow: hidden;
 }
 
-.news-block h1{
+.news-block h1 {
 	padding-left: 95px;
 	line-height: 30px;
 	font-size: 16px;
@@ -258,7 +287,7 @@ ul.menu > li:hover > ul.ddl {
 	color: #424c43;
 }
 
-.news-block p{
+.news-block p {
 	padding-left: 50px;
 	line-height: 24px;
 	font-size: 14px;
