@@ -88,11 +88,15 @@ body {
 	font-weight: 400;
 }
 
+.contacts td:first-child {
+	font-weight: 600;
+}
+
 .countries {
 	position: absolute;
 	top: 164px;
 	right: 36px;
-	height: 20px;
+	height: 55px;
 	width: 400px;
 	line-height: 7px;
 	text-align: center;
@@ -105,8 +109,7 @@ body {
 
 .countries li {
 	float: right;
-	width: 40px;
-	margin-left: 16px;
+	width: 60px;
 	list-style: none;
 	text-align: center;
 }
@@ -134,8 +137,13 @@ body {
 	margin-bottom: 20px;
 }
 
-span {
-	font-size: 10px;
+ul.menu>li>a>div {
+	display: block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 5px 0 5px;
+	border-color: #007bff transparent transparent transparent;
 }
 
 .nav-bar ul {
@@ -170,6 +178,18 @@ ul.menu > li > a {
 	text-align: center;
 	text-decoration: none;
 }
+
+li.warrow>a:after {
+	border-color: #ffffff transparent transparent;
+	border-style: solid;
+	border-width: 10px 5px 0;
+	content: "";
+	display: inline-flex;
+	height: 0;
+	margin-left: 4px;
+	width: 0;
+}
+
 ul.ddl {
 	display: none;
 	position: absolute;
