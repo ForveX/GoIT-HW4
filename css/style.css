@@ -57,6 +57,7 @@ body {
 	right: 30px;
 	top: 57px;
 	display: block;
+	z-index: 4;
 }
 
 .contacts {
@@ -100,6 +101,7 @@ body {
 	width: 400px;
 	line-height: 7px;
 	text-align: center;
+	z-index: 4;
 }
 
 .countries ul {
